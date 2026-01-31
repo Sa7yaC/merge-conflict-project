@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 8rem;
+}
+
+.logo{
+    background-image: url("/static/logo.png");
+    height: 5rem;
+    width: 5rem;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.more{
+    background-image: url("/static/more.png");
+    height: 1.5rem;
+    width: 1.5rem;
+    background-size: cover;
+    cursor: pointer;
+}

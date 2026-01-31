@@ -1,0 +1,40 @@
+.heading{
+    margin: 0rem 15rem;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.2rem;
+    color: #F96E5B;
+    margin: 0.7rem 15rem;
+}
+
+.charts {
+    margin: 2rem 15rem;
+    display: grid;
+    grid-gap: 2rem;
+    width: 50rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.energy {
+    border: 1px solid #F96E5B;
+    border-radius: 8px;
+    padding: 0.5rem 2rem;
+    background-color: #fff4e2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #F96E5B;
+    font-family: "Inconsolata", monospace;
+    cursor: pointer;
+}
+.stress{
+    border: 1px solid #F96E5B;
+    border-radius: 8px;
+    padding: 0.5rem 2rem;
+    background-color: #fff4e2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #F96E5B;
+    font-family: "Inconsolata", monospace;
+    cursor: pointer;
+}
