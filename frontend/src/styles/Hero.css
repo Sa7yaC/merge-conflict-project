@@ -1,0 +1,79 @@
+div .greetings{
+    font-family: "Outfit", sans-serif;
+    padding: 0rem 15rem;
+    color: #F96E5B;
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+.name{
+    font-style: italic;
+}
+h3{
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5rem;
+    color: #3F9AAE;
+    margin: 0.7rem 15rem;
+}
+.ratings{
+    display: grid;
+    width: 60rem;
+    grid-template-columns: repeat(6, 1fr);
+    border-radius: 1rem;
+    grid-gap: 1.2rem;
+    height: 5rem;
+    margin: 0rem 15rem;
+    margin-bottom: 3rem;
+}
+.rating1, .rating2, .rating3, .rating4, .rating5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    height: 100%;
+    width: 10rem;
+    border: 2px solid white;
+    cursor: pointer;
+    background: none;
+    transition: background-color 0.3s;
+    border-radius: 1rem;
+    background-color: #FFE2AF;
+}
+.rating1:hover, .rating2:hover, .rating3:hover, .rating4:hover, .rating5:hover {
+    background-color: #F96E5B;
+}
+
+.rating1.selected, .rating2.selected, .rating3.selected, .rating4.selected, .rating5.selected {
+    background-color: #F96E5B;
+    border-color: #F96E5B;
+}
+.submitBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    height: 100%;
+    width: 12rem;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    background: none;
+    transition: background-color 0.3s;
+    border-radius: 1rem;
+    background-color: #F96E5B;
+}
+.submitBtn:hover{
+    background-color: #3F9AAE;
+    border-color: #3F9AAE;
+}
+.submitBtn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+.completed {
+    text-align: center;
+    margin: 2rem 15rem;
+    color: #F96E5B;
+    font-family: "Outfit", sans-serif;
+}
