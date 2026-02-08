@@ -14,9 +14,9 @@ app.use(express.urlencoded({ extended: true, limit: '20kb' }))
 // app.use(express.static("public"))
 
 //import routes
-// import userRoutes from '../src/routes/user.routes.js';
+import checkinRoutes from '../src/routes/checkin.routes.js';
 // import adminRoutes from '../src/routes/admin.routes.js';
 
-// app.use("/api/v1/user", userRoutes);
+app.use("/api/v1/checkin", checkinRoutes);
 // app.use("/api/v1/admin", adminRoutes);
 export { app };
